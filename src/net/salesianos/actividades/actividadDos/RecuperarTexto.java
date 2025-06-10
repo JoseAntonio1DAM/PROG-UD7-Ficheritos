@@ -10,7 +10,7 @@ import java.io.IOException;
 public class RecuperarTexto {
     public static void main(String[] args) {
         // a) Crear fichero y escribir texto
-        File archivo = new File("/ficheros/actividadDos.txt");
+        File archivo = new File("ficheros/actividadDos");
         String textoOriginal = "Hola, pibe."; // Texto de ejemplo
 
         // Escribir el texto en el fichero
