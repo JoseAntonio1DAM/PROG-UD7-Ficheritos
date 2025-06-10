@@ -1,4 +1,4 @@
-package net.salesianos.gestion;
+package net.salesianos.actividades.actividadUno;
 
 import java.io.BufferedWriter;
 import java.io.File;
