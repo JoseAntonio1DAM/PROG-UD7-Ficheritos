@@ -90,7 +90,9 @@ public class PerRecuperadorDatos {
             System.out.println("No hay mesas almacenadas.");
         } else {
             System.out.println("\n--- MESAS ALMACENADAS ---");
-            mesas.forEach(System.out::println);
+            for (Mesa m : mesas) {
+                System.out.println(m);
+            }
         }
     }
 
